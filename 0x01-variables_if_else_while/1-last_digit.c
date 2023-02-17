@@ -13,9 +13,9 @@
 int main(void)
 {
 int n, c = 0;
+unsigned int numar[1];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-unsigned int numar[1];
 while (n != 0)
 {
 numar[c] = n % 10;
