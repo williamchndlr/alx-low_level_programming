@@ -17,8 +17,11 @@ int emp = 10;
 for (a = 48; a < 58; a++)
 {
 putchar(a);
+if (a >= 48 && a <= 56)
+{
 putchar(44);
 putchar(32);
+}
 }
 putchar(emp);
 
