@@ -13,24 +13,27 @@
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int ary[] = (int) n;
-int alen = sizeof(n) / sizeof(n[0]);
-int lastnum = alen - 1;
-
-if (n[lastnum] > 5)
+int numar[];
+int c = 0;
+while (n != 0)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, n[lastnum]);
+numar[c] = n % 10;
+n /= 10;
+c++;
 }
-else if (n[lastnum] == 0)
+if (numar[0] > 5)
 {
-printf("Last digit of %d is %d and is 0\n", n, n[lastnum]);
+printf("Last digit of %d is %d and is greater than 5\n", n, numar[0]);
 }
-else if (n[lastnum < 6 && n[lastnum] > 0)
+else if (numar[0] == 0)
 {
-printf("Last digit of %d is %d and is less than  and not 0\n", n, n[lastnum]);
+printf("Last digit of %d is %d and is 0\n", n, numar[0]);
+}
+else if (numar[0] < 6 && numar[0] > 0)
+{
+printf("Last digit of %d is %d and is less than  and not 0\n", n, numar[0]);
 }
 return (0);
 }
