@@ -12,9 +12,9 @@
 
 int main(void)
 {
-char emp = '\n';
-char ch;
-for (ch = 'z'; ch <= 'a'; ch--)
+char  emp = '\n';
+int ch;
+for (ch = 122; ch >= 97; ch--)
 {
 putchar(ch);
 }
