@@ -13,16 +13,15 @@
 int main(void)
 {
 int a;
-char emp = '\n';
+int emp = 10;
 for (a = 48; a < 58; a++)
 {
 putchar(a);
-}
-for (a = 97; a < 103; a++)
-{
-putchar(a);
+putchar(44);
+putchar(32);
 }
 putchar(emp);
+
 
 return (0);
 }
