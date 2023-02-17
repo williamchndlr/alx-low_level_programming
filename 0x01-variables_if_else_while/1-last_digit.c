@@ -16,7 +16,8 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int lastnum = strlen(n - 1);
+int alen = sizeof(n) / sizeof(n[0]);
+int lastnum = alen - 1;
 
 if (n[lastnum] > 5)
 {
