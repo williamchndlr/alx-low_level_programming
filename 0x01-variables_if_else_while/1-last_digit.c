@@ -12,27 +12,29 @@
 
 int main(void)
 {
-int n, c = 0;
+int n, b, c = 0;
 unsigned int numar[1];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+b = n;
 while (n != 0)
 {
 numar[c] = n % 10;
 n /= 10;
+printf("%d", numar[c]);
 c++;
 }
-if (numar[0] > 5)
+if (numar[0] > 0 && numar[0] > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, numar[0]);
+printf("Last digit of %d is %d and is greater than 5\n", b, numar[0]);
 }
 else if (numar[0] == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, numar[0]);
+printf("Last digit of %d is %d and is 0\n", b, numar[0]);
 }
-else if (numar[0] < 6 && numar[0] > 0)
+else if (numar[0] < 6 && numar[0] != 0)
 {
-printf("Last digit of %d is %d and is less than  and not 0\n", n, numar[0]);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", b, numar[0]);
 }
 return (0);
 }
