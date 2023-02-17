@@ -16,7 +16,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 int c = 0;
-unsigned int numar[c];
+unsigned int numar[0];
 while (n != 0)
 {
 numar[c] = n % 10;
