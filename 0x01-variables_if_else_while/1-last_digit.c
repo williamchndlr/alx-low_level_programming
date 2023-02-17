@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include <string.h>
 /* betty style doc for function main goes there */
 /* betty style doc for function main goes there */
 /**
@@ -16,7 +16,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int lastnum = strlen - 1;
+int lastnum = strlen(n - 1);
 
 if (n[lastnum] > 5)
 {
