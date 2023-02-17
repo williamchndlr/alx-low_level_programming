@@ -16,6 +16,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+int ary[] = (int) n;
 int alen = sizeof(n) / sizeof(n[0]);
 int lastnum = alen - 1;
 
