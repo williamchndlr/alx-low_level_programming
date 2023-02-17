@@ -13,11 +13,12 @@
 int main(void)
 {
 int a;
+char emp = '\n';
 for (a = 48; a < 58; a++)
 {
-putchar(/*"%d"*/, a);
+putchar(a);
 }
-putchar(\n);
+putchar(emp);
 
 return (0);
 }
