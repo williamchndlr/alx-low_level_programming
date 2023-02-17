@@ -13,7 +13,7 @@
 int main(void)
 {
 int n, b, c = 0;
-unsigned int numar[1];
+int numar[1];
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 b = n;
@@ -21,7 +21,6 @@ while (n != 0)
 {
 numar[c] = n % 10;
 n /= 10;
-printf("%d", numar[c]);
 c++;
 }
 if (numar[0] > 0 && numar[0] > 5)
