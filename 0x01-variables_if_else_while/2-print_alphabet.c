@@ -12,7 +12,7 @@
 int main(void)
 {
 char cc;
-char emp="\n"
+char emp = "\n";
 for (cc = 'a'; cc <= 'z'; cc++)
 {
 putchar(cc);
