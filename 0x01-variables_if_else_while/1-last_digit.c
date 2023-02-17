@@ -12,11 +12,10 @@
 
 int main(void)
 {
-int n;
+int n, c = 0;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int c = 0;
-unsigned int numar[0];
+unsigned int numar[1];
 while (n != 0)
 {
 numar[c] = n % 10;
