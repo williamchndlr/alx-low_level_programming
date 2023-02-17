@@ -13,7 +13,7 @@
 int main(void)
 {
 int a;
-char emp = '\n';
+int emp = 0;
 for (a = 48; a < 58; a++)
 {
 putchar(a);
