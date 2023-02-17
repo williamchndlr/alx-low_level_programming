@@ -11,11 +11,13 @@
 
 int main(void)
 {
-for (ch = 'a'; ch <= 'z'; ch++)
+char cc;
+char emp="\n"
+for (cc = 'a'; cc <= 'z'; cc++)
 {
-putchar(/*"%c"*/, ch);
+putchar(cc);
 }
-putchar(\n);
+putchar(emp);
 
 
 return (0);
