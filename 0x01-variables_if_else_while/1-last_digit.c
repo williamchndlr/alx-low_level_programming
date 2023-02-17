@@ -15,7 +15,7 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int numar[] = {0};
+unsigned int numar[] = 1;
 int c = 0;
 while (n != 0)
 {
