@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
  * _putchar writes _putchar
@@ -9,6 +8,6 @@
 
 int main (void)
 {
-_putchar("_putchar");
+_putchar("_putchar\n");
 return (0);
 }
