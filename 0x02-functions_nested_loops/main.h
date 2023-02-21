@@ -12,5 +12,5 @@ void  _putchar (void)
 char buf[] = "_putchar\n";
 write(1, buf, strlen(buf));
 
-return (0);
+return;
 }
