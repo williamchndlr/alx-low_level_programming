@@ -1,16 +1,13 @@
 #include <unistd.h>
-#include <string.h>
+
 /**
- * _putchar - writes to the screen
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: On success 0.
+ * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-
-void  _putchar (void)
+int _putchar(char c)
 {
-char buf[] = "_putchar\n";
-write(1, buf, strlen(buf));
-
-return;
+	return (write(1, &c, 1));
 }
