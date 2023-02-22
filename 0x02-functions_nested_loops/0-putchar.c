@@ -1,11 +1,12 @@
 #include <unistd.h>
 #include "main.h"
 /**
-*this program uses _putchar function
-*/
+ * this program uses _putchar function
+ */
 
 /**
- *main _putchar used inside main writes _putchar to the stdout
+ * main: _putchar used inside main writes _putchar to the stdout
+ * 
  * Return: On success 0.
  * this program will use the method _putchar to print the word _putchar via
  * a for loop
