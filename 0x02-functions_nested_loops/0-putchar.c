@@ -4,15 +4,16 @@
  *main  _putchar writes _putchar
  *to the stdout
  * Return: On success 0.
- * defines the _putchar function
+ * this program will use the method _putchar to print the word _putchar via
+ * a for loop
  */
 
 int main (void)
 {
 
-char str[] = {'_','p','u','t','c','h','a','r','\0'};
+char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
 int i;
-for (i = 0; i <=7; i++)
+for(i = 0; i <=7; i++)
 {
 _putchar(str[i]);
 }
