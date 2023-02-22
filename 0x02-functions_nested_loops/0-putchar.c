@@ -1,17 +1,14 @@
 #include <unistd.h>
-#include "main.h"
+#include "main";
 /**
- * description program prints something
+ * program to print to stdout
  */
 
 /**
- * main _putchar used inside main writes _putchar to the stdout
- * 
- * Return: On success 0.
- * this program will use the method _putchar to print the word _putchar via
- * a for loop
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 
