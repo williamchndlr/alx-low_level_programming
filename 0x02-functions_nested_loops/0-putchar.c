@@ -1,8 +1,6 @@
 #include <unistd.h>
 #include "main.h"
 
-/* program to print to stdout */
-
 /**
  * main Entry point
  *
