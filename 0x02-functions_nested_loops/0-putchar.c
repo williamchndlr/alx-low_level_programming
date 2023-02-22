@@ -11,7 +11,8 @@ int main (void)
 {
 
 char str[] = {'_','p','u','t','c','h','a','r','\0'};
-for (int i = 0; i <=7; i++)
+int i;
+for (i = 0; i <=7; i++)
 {
 _putchar(str[i]);
 }
