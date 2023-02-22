@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * prints _putchar to the stdout
- *
+ program that prints to stdout */
+
+/**
  * main Entry point
  *
  * Return: Always 0 (Success)
