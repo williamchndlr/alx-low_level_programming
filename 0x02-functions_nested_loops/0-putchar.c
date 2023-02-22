@@ -1,6 +1,8 @@
 #include <unistd.h>
 #include "main.h"
-/* this program uses _putchar function */
+/**
+ * description program prints something
+ */
 
 /**
  * main _putchar used inside main writes _putchar to the stdout
