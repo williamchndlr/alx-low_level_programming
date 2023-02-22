@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- program that prints to stdout */
+ * program that prints to stdout
+ */
 
 /**
  * main Entry point
