@@ -13,7 +13,8 @@ while (i <= 9)
 int j = 0;
 while (j <= 9)
 {
-if (j == 0)_putchar('0');
+if (j == 0)
+_putchar('0');
 else if (i * j >= 10)
 {
 _putchar(i * j / 10 + 48);
