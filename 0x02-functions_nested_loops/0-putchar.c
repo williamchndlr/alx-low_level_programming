@@ -1,10 +1,8 @@
 #include <unistd.h>
 #include "main.h"
 
-/* prog prints to stdout */
-
 /**
- * main Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
