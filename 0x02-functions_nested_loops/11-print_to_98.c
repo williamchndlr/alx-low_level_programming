@@ -3,17 +3,18 @@
  *print_to_98 - Entry point
  *@a: Integer argument
  *
- *Return: n
+ *Return: void
 */
 void print_to_98(int n)
 {
-  for (n; n <= 98; n++)
+  while (n <= 98)
     {
       if (n > 0)
 	{
           printf("%d, n");
 	  printf(", ");
         }
+      n++;
     }
   printf("\n");  
 }
