@@ -16,7 +16,5 @@ void print_to_98(int n)
 	  printf(", ");
         }
     }
-  printf("\n");
-  return (0);
-  
+  printf("\n");  
 }
