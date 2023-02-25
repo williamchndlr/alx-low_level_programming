@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * main uses _putchar
+ *print_alphabet - Entry point
  *
- * Return: always 0.
+ *Return: Void
  */
-
 
 void print_alphabet(void)
 {
