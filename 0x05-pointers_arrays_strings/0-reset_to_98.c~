@@ -1,0 +1,7 @@
+#include "main.h"
+/**
+ *_isupper - Entry point
+ *@c: Integer argument
+ *
+ *Return: 1 for true, 0 for false
+ */
