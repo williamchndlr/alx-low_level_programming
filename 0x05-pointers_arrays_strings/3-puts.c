@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - Entry point
+ * _puts - Entry point
  * @str: Takes a pointer to a char as argument
  *
  * Return: Void
