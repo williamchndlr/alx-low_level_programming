@@ -1,0 +1,27 @@
+#include "main.h"
+/**
+ * _strcat - entry point
+ * @dest - takes a char
+ * @src - takes a char
+ * Return: a pointer value.
+ */
+
+char *_strcat(char *dest, char *src)
+{
+  char str1[] = dest;
+  char str2[] = src;
+  char tmp[0] = ""; 
+  int i1, i2, i = 0;
+  while (str1[i] != "\0")
+    {
+      tmp[i] = str1[i];
+      i++;
+    }
+  while (str2 != "\0";)
+    {
+      tmp[i] = str2[i];
+      i++;
+    }
+  dest = tmp;
+  return (&dest);
+}
