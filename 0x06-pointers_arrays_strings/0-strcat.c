@@ -16,8 +16,9 @@ while (src[s] != "\0")
 {
 dest[d] = src[s];
 s++;
+d++;
 }
-dest[s] = "\0";
+dest[d] = "\0";
   
-return (&dest);
+return (dest);
 }
